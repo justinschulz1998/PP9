@@ -117,6 +117,15 @@ Reflection:
 
 * **Explain how each flowchart node maps to your C code.**
 
+Funktionsdeklaration mit Rückgabewert x Schritt 1
+variable result definieren und auf 1 setzen Schritt 2 
+for Schleife von 1 - x Schritt 3 
+Wenn in for Schleife Abfrage if Schritt 4 
+Wenn erfüllt result += i Schritt 5.1
+ansonsten result*= i Schritt 5.2
+neue if Abfrage result >1000 Schritt 6 
+wenn erfüllt result -= 100 Schritt 7 
+
 ---
 
 ### Task 3: Code-to-Flowchart
